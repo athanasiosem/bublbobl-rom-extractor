@@ -15,8 +15,6 @@ bublbobl.zip
 *.dll
 *.exe
 *.7z
-2E150*
-_*.extracted/
 
 # Editor / OS
 .vscode/
