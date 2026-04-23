@@ -114,8 +114,7 @@ Do not redistribute the generated `bublbobl.zip`.
 
 Based on analysis originally posted by **GuiMiTomo** in
 [farmerbb/RED-Project#243](https://github.com/farmerbb/RED-Project/issues/243),
-which identified the embedded LZMA-alone blob and the ROM split layout inside
-the Windows release.
+which identified the embedded LZMA-alone blob and the ROM split layout.
 
 ## Author
 
