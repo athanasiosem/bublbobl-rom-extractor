@@ -10,7 +10,7 @@ blob inside its main binary (`GameBubblebobble_Windows64bit_Release.dll`).
 ## Requirements
 
 - Python 3.3 or newer (for the built-in `lzma` module)
-- A Steam copy of *Bubble Bobble 4 Friends: The Baron's Workshop* that you
+- A Steam copy of *[*Bubble Bobble 4 Friends: The Baron's Workshop*](https://store.steampowered.com/app/1287030/Bubble_Bobble_4_Friends_The_Barons_Workshop/)* that you
   legally own. The tool reads `GameBubblebobble_Windows64bit_Release.dll`,
   which lives at:
 
