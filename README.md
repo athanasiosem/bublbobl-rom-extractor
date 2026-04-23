@@ -6,6 +6,8 @@ LZMA-compressed blob inside its main binary (`GameBubblebobble_Windows64bit_Rele
 
 Pure Python, standard library only — no binwalk, no 7-Zip, no external tools.
 
+![Bubble Bobble (Taito, 1986) running in MAME from the extracted ROM set](screenshot.jpg)
+
 ## Requirements
 
 - Python 3.3 or newer (for the built-in `lzma` module)
