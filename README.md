@@ -1,9 +1,9 @@
 # bublbobl-rom-extractor
 
 Recover the MAME `bublbobl` ROM set from a legitimately-owned Steam copy of
-*Bubble Bobble 4 Friends: The Baron's Workshop*, which ships the original
-1986 arcade ROMs as an embedded, LZMA-compressed blob inside its main binary
-(`GameBubblebobble_Windows64bit_Release.dll`).
+[*Bubble Bobble 4 Friends: The Baron's Workshop*](https://store.steampowered.com/app/1287030/Bubble_Bobble_4_Friends_The_Barons_Workshop/),
+which ships the original 1986 arcade ROMs as an embedded, LZMA-compressed
+blob inside its main binary (`GameBubblebobble_Windows64bit_Release.dll`).
 
 Pure Python, standard library only — no binwalk, no 7-Zip, no external tools.
 
