@@ -1,8 +1,9 @@
 # bublbobl-rom-extractor
 
-Recover the MAME `bublbobl` ROM set from a legitimately-owned Windows build of
-*Bubble Bobble* that ships the original arcade ROMs as an embedded,
-LZMA-compressed blob inside its main binary (`GameBubblebobble_Windows64bit_Release.dll`).
+Recover the MAME `bublbobl` ROM set from a legitimately-owned Steam copy of
+*Bubble Bobble 4 Friends: The Baron's Workshop*, which ships the original
+1986 arcade ROMs as an embedded, LZMA-compressed blob inside its main binary
+(`GameBubblebobble_Windows64bit_Release.dll`).
 
 Pure Python, standard library only — no binwalk, no 7-Zip, no external tools.
 
@@ -11,7 +12,9 @@ Pure Python, standard library only — no binwalk, no 7-Zip, no external tools.
 ## Requirements
 
 - Python 3.3 or newer (for the built-in `lzma` module)
-- A copy of the Windows build you legally own
+- A Steam copy of *Bubble Bobble 4 Friends: The Baron's Workshop* that you
+  legally own (the tool reads `GameBubblebobble_Windows64bit_Release.dll`
+  from its install directory)
 
 ## Usage
 
@@ -35,8 +38,9 @@ Options:
 
 ## How it works
 
-The Windows release embeds the full arcade ROM data as a single
-LZMA "alone"-format stream somewhere inside the DLL. The extractor:
+*The Baron's Workshop* includes the original 1986 arcade Bubble Bobble as
+an in-game unlockable, and embeds its full ROM data as a single LZMA
+"alone"-format stream somewhere inside the DLL. The extractor:
 
 1. Scans the input binary for an LZMA-alone header whose uncompressed-size
    field equals exactly **561,408 bytes** (`0x89100`). The match is anchored on
@@ -93,11 +97,12 @@ fine.
 This project does **not** include, distribute, or redistribute any
 copyrighted ROM data. It only operates on a file the user already owns.
 
-You are responsible for ensuring your use complies with the license of the
-Windows release you are extracting from and with the copyright laws of your
-jurisdiction. The output of this tool is intended for personal use only
-(for example, playing your own copy of the game in MAME on hardware that a
-modern native binary cannot target, such as a CRT via GroovyMAME).
+You are responsible for ensuring your use complies with the Steam
+Subscriber Agreement, the EULA of *Bubble Bobble 4 Friends: The Baron's
+Workshop*, and the copyright laws of your jurisdiction. The output of this
+tool is intended for personal use only (for example, playing your own copy
+of the game in MAME on hardware the modern native binary cannot target,
+such as a CRT).
 
 Do not redistribute the generated `bublbobl.zip`.
 
