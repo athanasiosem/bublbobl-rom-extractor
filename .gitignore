@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Tool output — never commit ROM data
+*.zip
+bublbobl.zip
+
+# Local test fixtures (proprietary binaries / blobs)
+*.dll
+*.exe
+*.7z
+2E150*
+_*.extracted/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
