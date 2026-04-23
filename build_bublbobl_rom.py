@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-bublbobl-rom-extractor — recover the MAME `bublbobl` ROM set from a
-legitimately-owned Windows build of Bubble Bobble that ships the original
-arcade ROMs as an embedded, LZMA-compressed blob inside its main binary.
+bublbobl-rom-extractor — Recover the MAME bublbobl ROM set
+from a legitimately-owned Steam copy of Bubble Bobble 4 Friends: The Baron's Workshop 
+that ships the original arcade ROMs as an embedded, LZMA-compressed blob 
+inside its main binary.
 
 Pipeline (stdlib only — no external tools):
   1. Scan the input .exe/.dll for an embedded LZMA "alone" stream whose
