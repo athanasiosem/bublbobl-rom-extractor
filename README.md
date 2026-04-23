@@ -43,7 +43,7 @@ Options:
 
 ## How it works
 
-*The Baron's Workshop* includes the original 1986 arcade Bubble Bobble and embeds its full ROM data as a single LZMA
+*[*Bubble Bobble 4 Friends: The Baron's Workshop*](https://store.steampowered.com/app/1287030/Bubble_Bobble_4_Friends_The_Barons_Workshop/)* includes the original 1986 arcade Bubble Bobble and embeds its full ROM data as a single LZMA
 "alone"-format stream somewhere inside the DLL. The extractor:
 
 1. Scans the input binary for an LZMA-alone header whose uncompressed-size
