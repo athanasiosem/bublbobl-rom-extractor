@@ -13,8 +13,15 @@ Pure Python, standard library only — no binwalk, no 7-Zip, no external tools.
 
 - Python 3.3 or newer (for the built-in `lzma` module)
 - A Steam copy of *Bubble Bobble 4 Friends: The Baron's Workshop* that you
-  legally own (the tool reads `GameBubblebobble_Windows64bit_Release.dll`
-  from its install directory)
+  legally own. The tool reads `GameBubblebobble_Windows64bit_Release.dll`,
+  which lives at:
+
+  ```
+  BUBBLE BOBBLE 4 FRIENDS\BUBBLE_BOBBLE_4_FRIENDS_Data\Plugins\x86_64\GameBubblebobble_Windows64bit_Release.dll
+  ```
+
+  inside the game's install directory (right-click the game in Steam →
+  *Manage* → *Browse local files*).
 
 ## Usage
 
