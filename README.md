@@ -5,8 +5,6 @@ Recover the MAME `bublbobl` ROM set from a legitimately-owned Steam copy of
 which ships the original 1986 arcade ROMs as an embedded, LZMA-compressed
 blob inside its main binary (`GameBubblebobble_Windows64bit_Release.dll`).
 
-Pure Python, standard library only.
-
 ![Bubble Bobble (Taito, 1986) running in MAME from the extracted ROM set](screenshot.jpg)
 
 ## Requirements
