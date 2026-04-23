@@ -115,7 +115,7 @@ the Windows release.
 
 ## Author
 
-Athanasios Emmanouilidis
+Athanasios Emmanouilidis — [emman.dev](https://www.emman.dev)
 
 ## License
 
